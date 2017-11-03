@@ -1,0 +1,22 @@
+# The linear_model block including the following model:
+Ordinary Least Squares:LinearRegression
+Ridge Regression :Ridge
+Lasso:Lasso
+Multi-task Lasso:MultiTaskLasso
+Elastic Net:ElasticNet
+Multi-task Elastic Net:MultiTaskElasticNet
+
+Least Angle Regression:Lars,lars_path,LarsCV
+Orthogonal Matching Pursuit (OMP):OrthogonalMatchingPursuit,orthogonal_mp,orthogonal_mp_gram
+Bayesian Regression:BayesianRidge,ARDRegression
+Logistic regression:LogisticRegression,LogisticRegressionCV
+Stochastic Gradient Descent - SGD:SGDRegressor,SGDClassifier
+Perceptron:Perceptron
+
+Passive Aggressive Algorithms:PassiveAggressiveClassifier,PassiveAggressiveRegressor
+Robustness regression:outliers and modeling errors:
+1.Random Sample Consensus:RANSAC
+2.Theil-Sen estimator:generalized-median-based estimator:TheilSenRegressor
+3.Huber Regression:HuberRegressor
+Polynomial regression: extending linear models with basis functions:PolynomialFeatures
+LassoLars, LassoCV,LassoLarsCV
